@@ -1,0 +1,67 @@
+.home-page{
+    background-color: rgb(58, 221, 58);
+    width: 160px;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 25px;
+    color: red;
+        cursor: pointer;
+        border: none;
+}
+
+.product-picture{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: auto ;
+    margin-top: 100px;
+}
+
+.one-product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.product-name{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.product-price{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgba(42, 124, 42, 0.947);
+}
+
+.product-location{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-info{
+    font-size: 15px;
+    text-align: center;
+}
+
+.remove-phone{
+    background-color: rgb(121, 20, 20);
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hidden {
+    display: none;
+  }
+
+  #notification-text{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900 ;
+  }
